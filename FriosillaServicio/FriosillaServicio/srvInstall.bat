@@ -1,0 +1,1 @@
+%WINDIR%"\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe" "C:\Users\VS2008\Documents\Visual Studio 2008\Projects\PdaFriosilla\PdaFriosilla\bin\Release\PdaFriosilla.exe"

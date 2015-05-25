@@ -1,0 +1,14 @@
+﻿El programa Friosilla Barcode consta de dos soluciones:
+
+-FriosillaPda
+	Esta aplicación se instala en las pda's. Para instalarlo hay que generar el archivo .cab
+
+-FriosillaServicio
+	Servicio windows que se instala en el servidor. Este servicio se encarga de monitorizar un directorio y leer los archivos de códigos que envían las PDA's vía FTP, para insertar los datos en la base de datos FRIOSILLA.
+	El nombre del servicio es FriosillaPda.
+	Para que funcione debe haber un servidor FTP instalado y funcionando.
+
+	Por defecto el servicio monitoriza la carpeta c:\pda\datos
+
+	Para configurar el servidor FTP (p.ejemplo FilleZilla Server) hay que crear un usuario (p.defecto pda/pda) e indicar que su carpeta raíz sea c:\pda\datos 
+	De este modo, cuando las PDA's envíen los archivos de códigos, se subirán a la carpeta que monitoriza el servicio.
